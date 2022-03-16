@@ -1,0 +1,52 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": -1,
+  "vmess": [],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "listenerType": 0,
+  "speedTestUrl": "http://speedtest-sgp1.digitalocean.com/10mb.test",
+  "speedPingTestUrl": "https://www.google.com/generate_204",
+  "urlGFWList": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": null,
+  "defAllowInsecure": false,
+  "subItem": [
+    {
+      "id": "355c6a75-0ed5-4a15-a12b-ee2c6cace119",
+      "remarks": "import sub",
+      "url": "https://github.com/",
+      "enabled": true
+    }
+  ],
+  "uiItem": {
+    "mainSize": "0, 0",
+    "mainLvColWidth": {}
+  },
+  "userPacRule": []
+}
